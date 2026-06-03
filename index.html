@@ -47,6 +47,23 @@
             margin-top: 15px;
         }
 
+        .badges {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            padding: 9px 13px;
+            border-radius: 999px;
+            color: #d9e6ff;
+            font-size: 14px;
+        }
+
         .buttons {
             margin-top: 35px;
             display: flex;
@@ -112,6 +129,10 @@
             color: #d5def2;
         }
 
+        .download-box {
+            text-align: center;
+        }
+
         footer {
             text-align: center;
             padding: 35px 20px;
@@ -125,6 +146,10 @@
             border-radius: 6px;
             color: #7cc4ff;
         }
+
+        a {
+            color: #7cc4ff;
+        }
     </style>
 </head>
 <body>
@@ -133,8 +158,15 @@
         <h1>Kanka Macro</h1>
         <p class="subtitle">The easiest macro app ever. Simple, fast, and made for gamers.</p>
 
+        <div class="badges">
+            <span class="badge">Windows 10/11</span>
+            <span class="badge">v1.0.0</span>
+            <span class="badge">24 MB</span>
+            <span class="badge">Turkish & English</span>
+        </div>
+
         <div class="buttons">
-            <a class="btn" href="#download">Download</a>
+            <a class="btn" href="https://github.com/mafakkalak/kanka-macro-site/releases/download/1.0.0/KankaMacroSetup.exe">Download Setup</a>
             <a class="btn secondary" href="#buy">Buy Premium</a>
         </div>
     </header>
@@ -184,9 +216,18 @@
 
     <section id="download">
         <h2>Download</h2>
+        <div class="card download-box">
+            <p>Download the latest Windows installer below.</p>
+            <p>File name: <code>KankaMacroSetup.exe</code></p>
+            <p><a class="btn" href="https://github.com/mafakkalak/kanka-macro-site/releases/download/1.0.0/KankaMacroSetup.exe">Download Kanka Macro Setup</a></p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact & Support</h2>
         <div class="card">
-            <p>The download link will be added here after the final setup file is uploaded.</p>
-            <p>File name: <code>Kanka Macro Setup.exe</code></p>
+            <p>Email: <code>mafakkalak@gmail.com</code></p>
+            <p>For premium license, payment confirmation, or support, contact by email.</p>
         </div>
     </section>
 
